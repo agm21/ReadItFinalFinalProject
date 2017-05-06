@@ -1,0 +1,45 @@
+<DOCTYPE html>
+ <head>
+   
+   <title>Article home</title>
+   
+ </head> 
+<body>
+  <nav>
+<ul>
+    <li><a href="../welcome/index">Home</a></li>
+    
+    <li><a href="../articles/new">Create Article</a></li>
+    <li><%= link_to 'Article List', articles_path %></li>
+</ul>
+</nav>
+
+<h1>Reviews</h1>
+<div id="newArt"><%= link_to 'New article', new_article_path %></div><br><br>
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+    <th colspan="2"></th>
+  </tr>
+ <br><br>
+  <% @articles.each do |article| %>
+    <tr>
+      <td><%= link_to article.title, article_path(article) %></td>
+      <td><%= article.text %></td>
+      <td><%= link_to 'Comments', article_path(article) %></td>
+      <td><%= link_to 'Edit', edit_article_path(article) %></td>
+      <td><%= link_to 'Delete',
+                              article_path(article),
+                              method: :delete,
+                              data: { confirm: 'Are you sure?' } %></td>
+    
+                              
+    </tr>
+    
+  <% end %>
+  
+</table>
+
+</body>
+</html>

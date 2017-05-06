@@ -1,0 +1,25 @@
+// Place all the styles related to the Greetings controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#homepage{
+    float:center;
+    
+    font-size: 40px;
+    border-left: 6px solid red;
+    background-color: lightgrey; 
+    color: blue;
+    padding: 14px 25px;
+    text-align: center; 
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+}
+
+#imgHomepage{
+    display: block;
+    margin: auto;
+    
+    text-align: center; 
+    
+}

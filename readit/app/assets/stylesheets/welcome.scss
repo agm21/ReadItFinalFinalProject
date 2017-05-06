@@ -1,0 +1,81 @@
+// Place all the styles related to the Welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+ 
+
+#newArt{
+    float:center;
+    text-decoration: none;
+    font-size: 20px;
+    border-left: 6px solid red;
+    background-color: lightgrey; 
+    color: blue;
+    padding: 14px 25px;
+    text-align: center; 
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+}
+
+#v1{
+    margin:auto;
+    text-align:center;
+}
+
+#singinId{
+    float:center;
+    text-decoration: none;
+    font-size: 20px;
+    border-left: 6px solid red;
+    background-color: lightgrey; 
+    color: blue;
+    padding: 14px 25px;
+    text-align: center; 
+    display: inline-block;
+    margin: auto;
+    width: 100%;  
+}
+
+h1{
+    color:red;
+    border: 2px dashed white;
+}
+
+
+
+body{
+    background-color:#FFF8DC;
+    background-image: url('https://www.google.com/search?q=plane&rlz=1C1CHZL_enUS681US681&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwijt4vfgvzSAhWB0FQKHXRaA_UQ_AUIBigB&biw=1600&bih=770#imgrc=xEs_Y5H64CuL-M:');
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00008B;
+}
+
+li {
+    float: left;
+    color:#6495ED;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
